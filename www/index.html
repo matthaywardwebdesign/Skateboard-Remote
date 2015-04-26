@@ -51,11 +51,7 @@
     <script type="text/javascript">
         app.initialize();
         document.addEventListener("deviceready", function() {
-            window.alert = navigator.notification.alert;
-            window.confirm = navigator.notification.confirm;
-            navigator.notification.alert("Test Notification", function() {
-
-            }, "Notification", "Close");
+            alert("Hello World");
         }, false);
     </script>
 </body>
